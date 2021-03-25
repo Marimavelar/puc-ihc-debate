@@ -1,33 +1,21 @@
-# Search Algorithms for Regression Test Case Prioritization
+# Brain computer interface: control signals review
 
-Ramadana, Rabie A.; Vasilakos, Athanasios V. (2017) "Brain computer interface: control signals review", 
-
-Li, Zheng; Harman, Mark; Hierons, Robert M. (2007) "Search Algorithms for Regression Test Case Prioritization", IEEE Transactions on Software Engineering, vol. 33, no. 4, pp. 225-237, doi: [10.1109/TSE.2007.38](https://doi.org/10.1109/TSE.2007.38)
+COOGAN, Christopher G.; HE, Bin. "Brain-computer interface control in a virtual reality environment and applications for the internet of things" in IEEE Access, vol. 6, p. 10840-10849, 2018.
 
 ## 1. Fichamento de Conteúdo
-
-Testes de regressão são executados em software para verificar se uma mudança introduziu algum erro no software. É um processo demorado. A priorização dos casos de teste visa permitir que falhas (testes que não passam) sejam descobertos o quanto antes. Li, Harman e Hierons (2007) defendem que não há solução ótima para o problema, podendo ele ser mapeado no problema da mochila, que é provadamente NP-difícil. Assim, eles investigam o desempenho de heurísticas na solução desse problema. Em particular, heurísticas baseadas em algoritmos de busca (Hill Climbing e Genetic Algorithms) e algoritmos agulosos (Greedy, Additional Greedy, e 2-Optimal Greedy).  Experimentos são realizados com  seis programas que variam de 374 a 11.148 linhas de código (LOC, lines of codes)  e possuem suítes de teste de tamanho médio que variam de 230 a 4350 testes. Os resultados mostram que as heurísticas Additional Greedy, 2-Optimal e Genetic Algorithm são melhores que Greedy Algorithm puro. A explicação é que nesse tipo de problema há muitos ótimos locais, principalmente em grandes programas, de modo que, algoritmos baseados em busca global tendem a ser melhores do que algoritmos de busca local.
-
-## 2. Fichamento Bibliográfico
-* O algoritmo de Busca Gulosa (Greedy Algorithm)  trabalha com o princípio do "próximo melhor", calcula um peso de cada teste em termos de maximizar a métrica de interesse (como a cobertura do código), e escolhe como próximo teste a ser executado, aquele que possui maior peso.
-* O algoritmo de Busca Gulosa Adicional (Additional Greedy Algorithm) calcula o peso de cada teste buscando definir um próximo teste de modo a maximizar a parte dos testes que não foi atingida pelas decisões anteriores. Ou seja, está sempre buscando a parte adicional, não é métrica "geral".
-* O 2-Optimal Algorithm seleciona os próximos 2 testes que juntos maximizam a métrica de interesse.
-* Escalada ou subida da colina (Hill Climbing ) é um algoritmo subótimo ou de ótimo local, seleciona o próximo teste baseado no ‘vizinho’ do teste atual que gera melhor resultado na métrica de interesse.
-* Algoritmo Genético (Genetic Algorithms) define um cromossomo composto por todos os testes. Cada posição do cromossomo indica ordem em que respectivo teste será executado. A função de aptidão do indivíduo é calculada baseada no valor obtido para o indivíduo e na ordem do indivíduo na população. São realizadas mutações e cruzamentos. (No texto não está muito clara a condição de término)
-
-## 3. Fichamento de Citações
-* _"Test case prioritization (...) orders test cases so that the test cases with highest priority, according to some criterion (a "fitness metric"), are executed first."_
-* _Given a function f that assesses the rate of achievement of code coverage, an efficient solution to the test case prioritization problem would provide an efficient solution to the knapsack problem, which is known to be NP-hard [7]. Thus, prioritization techniques for code coverage are necessarily heuristic [18]."_
-* _"The following two research questions motivated this study: Q1. Which algorithm is most effective in solving the test case prioritization problem for regression testing? Q2. What factors could affect the efficiency of algorithms for the test case prioritization problem for regression testing?"_
-* _"The results of the empirical study show that the Additional Greedy, 2-Optimal, and Genetic Algorithms always outperform the Greedy Algorithm. These results for the programs studied are shown to be statistically significant for all programs studied."_
-* _"The fact that there are many local optima in the search space indicates that, for large test suites, the fitness landscapes are likely to be inherently multimodal. This result suggests that global search techniques could outperform local search techniques for regression testing prioritization problems, particularly for larger test suites."_
-
-
-## 1. Fichamento de Conteúdo
-
+O artigo nos explica sobre a Interface cérebro-computador (Brain Computer Interface/BCI), sendo definido como um sistema completo composto pelo software e o hardware que manipula os sinais produzidos pelo cérebro humano para controlar computadores e outros dispositivos de comunicação. Atualmente, ele é mais utilizado por pessoas que possuem algum problema neuromuscular ou doenças auto-degenerativas, ambas sendo motivos para limitações no sistema cognitivo das pessoas, porém é esperado que ao longo dos anos o BCI seja desenvolvido para além da medicina e que possa estar nas necessidades do dia-a-dia. O artigo define como o BCI funciona, quais são os equipamentos e sistemas utilizados nos estudos, quais são os seus desafios para o crescimento da tecnologia e a confiança dos usuários e um road-map para o futuro do BCI.
 
 ## 2. Fichamento Bibliográfico
-
+* Invasive BCI, non-invasive, and semi-invasive BCI () são as formas de medir o registro de atividade do cérebro. O método invaviso necessita de uma intervenção cirúrgica para 
+* Electroencephalography (Eletroencefalografia) trata-se de um método não-invasivo de monitoramento eletrofisiológico utilizado no registro da atividade elétrica do cérebro. (páginas 28 - 30, 42, 43)
+* Spontaneous signals (sinais espontâneos) são os sinais que são gerados pela pessoa voluntariamente sem nenhuma estimulação externa. (página 32)
+* Hybrid signals (Sinais híbridos) é combinação dos sinais gerados pelo cérebro usado para controle. Ou seja, invés de utilizar apenas um tipo de sinal emitido, é usado um conjunto de sinais. (página 33)
 
 ## 3. Fichamento de Citações
+* _"The brain could be generally divided into two main parts which are the cerebral cortex and sub-cortical regions. Sub-cortical regions are those the areas that control the basic and vital functions such as heart rates, body temperature respiration, and emotional responses including fear, reflexes, learning, and memory. On the other hand, the cerebral cortex is considered newer in terms of evolutionarily. It is the largest and the most complicated part of the brain. This part is the focus on most of BCI research where it controls the sensory and motor processing and higher level functions such as language processing, pattern recognition, planning, and reasoning."_
+* _"The main purpose behind using two or more types of brain signals as input to a BCI system is the reliability and to avoid the disadvantages of each type of signals."_
+* _"Therefore, there is no yet a generic device or a platform that can handle all of the brain signals at once. "_
+* _"There is a lack in the BCI community in developing standards for the BCI systems."_
+* _"In addition, BCI sensing technology is not that attractive to many of the researchers due to social acceptance to the science itself and BCI sensors design complexity."_
+* _"One more issue of the sensing technology comes from the invasive systems where electrodes have to be planted into the subject's brain. "_
 
