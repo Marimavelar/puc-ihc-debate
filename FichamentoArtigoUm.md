@@ -1,6 +1,6 @@
 # Brain computer interface: control signals review
 
-COOGAN, Christopher G.; HE, Bin. "Brain-computer interface control in a virtual reality environment and applications for the internet of things" in IEEE Access, vol. 6, p. 10840-10849, 2018.
+RAMADAN, Rabie A.; VASILAKOS, Athanasios V. "Brain computer interface: control signals review" in Neurocomputing, vol. 223, p. 26-44, 2017.
 
 ## 1. Fichamento de Conteúdo
 O artigo nos explica sobre a Interface cérebro-computador (Brain Computer Interface/BCI), sendo definido como um sistema completo composto pelo software e o hardware que manipula os sinais produzidos pelo cérebro humano para controlar computadores e outros dispositivos de comunicação. Atualmente, ele é mais utilizado por pessoas que possuem algum problema neuromuscular ou doenças auto-degenerativas, ambas sendo motivos para limitações no sistema cognitivo das pessoas, porém é esperado que ao longo dos anos o BCI seja desenvolvido para além da medicina e que possa estar nas necessidades do dia-a-dia. O artigo define como o BCI funciona, quais são os equipamentos e sistemas utilizados nos estudos, quais são os seus desafios para o crescimento da tecnologia e a confiança dos usuários e um road-map para o futuro do BCI.

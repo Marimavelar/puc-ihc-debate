@@ -1,6 +1,6 @@
 # Brain-Computer Interface Control in a Virtual Reality Environment and Applications for the Internet of Things
 
-RAMADAN, Rabie A.; VASILAKOS, Athanasios V. "Brain computer interface: control signals review" in Neurocomputing, vol. 223, p. 26-44, 2017.
+COOGAN, Christopher G.; HE, Bin. "Brain-computer interface control in a virtual reality environment and applications for the internet of things" in IEEE Access, vol. 6, p. 10840-10849, 2018.
 
 ## 1. Fichamento de Conteúdo
 No artigo é discutido outras formas, além das laboratoriais, de controlar dispositivos através do Brain Computer Interface (BCI). É demonstrado como podemos utilizar os comandos do BCI para diversos tipos de aplicações, sendo alguns deles a realidade virtual, internet das coisas, engines de jogos e até dispositivos pessoais. O próprio artigo demonstra um estudo feito com 31 participantes testando a criação, implementação e avaliação de um jogo feito na Unity application-layer para o BCI2000, com bons resultados e confirmando assim a possibilidade da implementação do BCI em outros meios. 
