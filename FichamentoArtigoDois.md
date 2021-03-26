@@ -6,11 +6,10 @@ RAMADAN, Rabie A.; VASILAKOS, Athanasios V. "Brain computer interface: control s
 No artigo é discutido outras formas, além das laboratoriais, de controlar dispositivos através do Brain Computer Interface (BCI). É demonstrado como podemos utilizar os comandos do BCI para diversos tipos de aplicações, sendo alguns deles a realidade virtual, internet das coisas, engines de jogos e até dispositivos pessoais. O próprio artigo demonstra um estudo feito com 31 participantes testando a criação, implementação e avaliação de um jogo feito na Unity application-layer para o BCI2000, com bons resultados e confirmando assim a possibilidade da implementação do BCI em outros meios. 
 
 ## 2. Fichamento Bibliográfico
-* Internet of Things (Internet das Coisas)
-* Virtual Reality (Realidade virtual)
-* Unity 
-* JSON 
-* HTTP 
+* Internet of Things (Internet das Coisas) se referece a interconexão digital entre os objetos do cotidiano com a internet.
+* Virtual Reality (Realidade virtual) é uma tecnologia que através de recursos gráficos cria um ambiente virtual, diferente do real, que traz a sensação de presença real. 
+* Unity é um motor de jogo, criado pela Unity Tecnologies, com a capacidade de criar jogos em 2D e 3D.
+* HTTP, sigla para Hypertext Transfer Protocol é um protocolo de comunicação utilizado para sistemas web. 
 
 ## 3. Fichamento de Citações
 * _"Users can interact with both the physical and virtual world and to any device with access to the internet, via BCIs."_
